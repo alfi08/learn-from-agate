@@ -61,6 +61,6 @@ public class BallControl : MonoBehaviour
         ResetBall();
  
         // Setelah 2 detik, berikan gaya ke bola
-        Invoke("PushBall", 2);
+        Invoke("PushBall", 1);
     }
 }
